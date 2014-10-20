@@ -1,3 +1,5 @@
 (function(){
-    var app = angular.module('cpmsTeam', []);
+    var app = angular.module('cpmsTeam', [
+        'controller'
+    ]);
 })();

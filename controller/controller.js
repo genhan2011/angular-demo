@@ -1,3 +1,7 @@
-/**
- * Created by genhan.chen on 10/20/2014.
- */
+(function(){
+    var app = angular.module('controller', []);
+
+    app.controller('PresenterController', ['$scope', function($scope){
+        $scope.presenter = 'Genhan Chen';
+    }])
+})();
