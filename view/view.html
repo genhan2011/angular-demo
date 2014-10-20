@@ -1,11 +1,16 @@
 <div ng-controller="PresenterController">
-    <h1>Hello CPMS Team!</h1>
-    <h2>This demo is presented by {{presenter}}</h2>
+    <div class="jumbotron">
+        <h1>Hello CPMS Team!</h1>
+        <p>This demo is presented by {{presenter}}</p>
+    </div>
     <br />
-    <h2>Team members:</h2>
-    <ul>
-       <li ng-repeat="p in people">
-           name: {{p.name}}
+    <h1 class="page-header">Team Members:</h1>
+    <ul class="list-group">
+       <li ng-repeat="p in people" class="list-group-item">
+           <div ng-repeat="(key, val) in p" class="row">
+               <label class="col-sm-4">{{key}}:</label>
+               <div class="col-sm-8">{{val}}</div>
+           </div>
        </li>
     </ul>
 </div>
