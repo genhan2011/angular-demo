@@ -1,4 +1,11 @@
 <div ng-controller="PresenterController">
     <h1>Hello CPMS Team!</h1>
     <h2>This demo is presented by {{presenter}}</h2>
+    <br />
+    <h2>Team members:</h2>
+    <ul>
+       <li ng-repeat="p in people">
+           name: {{p.name}}
+       </li>
+    </ul>
 </div>

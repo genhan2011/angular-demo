@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "name": "Genhan Chen",
+            "position": "Sr Sys App Programmer",
+            "office": "200 E. Santa Clara St. San José, CA 95113",
+            "phone": "4085358401",
+            "email": "genhan.chen@sanjoseca.gov"
+        },
+        {
+            "name": "Stephen Teraji",
+            "position": "Supervising Sys Analyst",
+            "office": "200 E. Santa Clara St. San José, CA 95113",
+            "phone": "4085358339",
+            "email": "steve.teraji@sanjoseca.go"
+        },
+        {
+            "name": "Madhavi Desai",
+            "position": "Info Sys Analyst",
+            "office": "200 E. Santa Clara St. San José, CA 95113",
+            "phone": "4085358328",
+            "email": "madhavi.desai@sanjoseca.gov"
+        }
+    ]
+}
